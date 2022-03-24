@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(./visage1.jpg);
+}
+
+.eyes{
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    height: ;
+    text-align: center;
+}
+
+
+.eye{
+    width: 240px;
+    height: 120px;
+    background: #fff;
+    display: inline-block;
+    margin-left: 500px;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+}
+
+.ball{
+    width: 40px;
+    height: 40px;
+    background: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(50%n 50%);
+    border-radius: 50%;
+}
